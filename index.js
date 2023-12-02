@@ -1,7 +1,7 @@
 const imageSelector = (randomNumber, image) => {
   var randomImage = `dice${randomNumber}.png`;
-  var imageOneSource = `./images/${randomImage}`;
-  image.setAttribute("src", imageOneSource);
+  var imageSource = `./images/${randomImage}`;
+  image.setAttribute("src", imageSource);
 };
 
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
